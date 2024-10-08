@@ -1,0 +1,11 @@
+from sympy import isprime
+
+n = 10
+
+result = []
+
+for i in range (1,n+1):
+    if isprime(i):
+        result.append(i)
+final_result = result[-2]
+print(final_result)
